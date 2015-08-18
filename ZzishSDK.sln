@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZzishTest", "ZzishTest\ZzishTest.csproj", "{DB86D8AF-DD60-4C7D-B5EE-F03B42FF590D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicum.ZzishApiClient", "ApiClient\Lexicum.ZzishApiClient.csproj", "{B87701C1-1467-4A78-83EB-9DB9F486D371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F993A65E-685A-435E-9A2F-32F7A2F776B9}"
+	ProjectSection(SolutionItems) = preProject
+		Lexicum.ZzishApiClient.dll = Lexicum.ZzishApiClient.dll
+		Newtonsoft.Json.dll = Newtonsoft.Json.dll
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB86D8AF-DD60-4C7D-B5EE-F03B42FF590D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB86D8AF-DD60-4C7D-B5EE-F03B42FF590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB86D8AF-DD60-4C7D-B5EE-F03B42FF590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB86D8AF-DD60-4C7D-B5EE-F03B42FF590D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87701C1-1467-4A78-83EB-9DB9F486D371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87701C1-1467-4A78-83EB-9DB9F486D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87701C1-1467-4A78-83EB-9DB9F486D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87701C1-1467-4A78-83EB-9DB9F486D371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
